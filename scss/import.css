@@ -1,0 +1,7 @@
+@font-face {
+    font-family: DM_Sans;
+    src: url(/DM_Sans/DMSans-Medium.ttf);
+}
+body{
+    background: #111827;
+}
