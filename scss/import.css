@@ -2,11 +2,13 @@
     font-family: DM_Sans;
     src: url(/DM_Sans/DMSans-Medium.ttf);
 }
-
+*{
+    font-family: DM_Sans;
+}
 body{
     background: #111827;
 }
-.container{
+.conteiner{
     width: 80% !important;
     margin: 0 auto !important;
 }

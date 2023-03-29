@@ -1,1 +1,27 @@
-/*# sourceMappingURL=style.css.map */
+#header {
+  height: 15vh;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 3vw;
+  list-style: none;
+  align-items: center;
+}
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "DM_Sans";
+  font-weight: 500;
+}
+.navbar ul img {
+  display: none;
+}
+
+.button {
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  background: linear-gradient(90.35deg, #2563eb 0.36%, #d946ef 201.02%);
+  color: #fff;
+  border: none;
+}/*# sourceMappingURL=style.css.map */
