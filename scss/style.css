@@ -37,7 +37,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-#info_p, #grid-item_1 p, #grid-item_6 p, #grid-item_5 p, #grid-item_4 p, #grid-item_3 p, #grid-item_2 p, .s-2_info p {
+#info_p, .s_info p, .s-5_info p, #team_item-1 p, .grid-item_1 p, .grid-item_6 p, .grid-item_5 p, .grid-item_4 p, .grid-item_3 p, .grid-item_2 p, .s-2_info p {
   font-size: 1.1rem;
   line-height: 30px;
   color: #fff;
@@ -51,15 +51,15 @@
   color: #fff;
 }
 
-#h1-text {
+#h1-text, .s_info h1, .s-5_info h1, #team_item-1 h1 {
   color: #fff;
   font-size: 3rem;
   line-height: 5rem;
 }
 
-#grid-item_1, #grid-item_6, #grid-item_5, #grid-item_4, #grid-item_3, #grid-item_2 {
+.grid-item_1, .grid-item_6, .grid-item_5, .grid-item_4, .grid-item_3, .grid-item_2 {
   width: 370px;
-  height: 336px;
+  padding: 1rem 0.5rem;
   background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
   box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
   border-radius: 34px;
@@ -68,12 +68,13 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+  padding: 1rem;
 }
-#grid-item_1 p, #grid-item_6 p, #grid-item_5 p, #grid-item_4 p, #grid-item_3 p, #grid-item_2 p {
+.grid-item_1 p, .grid-item_6 p, .grid-item_5 p, .grid-item_4 p, .grid-item_3 p, .grid-item_2 p {
   line-height: 1.5;
 }
 
-#item_h2, #grid-item_6 h2, #grid-item_5 h2, #grid-item_4 h2, #grid-item_3 h2, #grid-item_2 h2 {
+#item_h2, .grid-item_6 h2, .grid-item_5 h2, .grid-item_4 h2, .grid-item_3 h2, .grid-item_2 h2 {
   font-family: "DM_Sans";
   font-style: normal;
   font-weight: 500;
@@ -110,4 +111,21 @@
 
 .img-border_6 {
   background: linear-gradient(180deg, #8684ED 0%, #4247BB 100%);
+}
+
+.s_info h1, .s-5_info h1, #team_item-1 h1 {
+  line-height: 1;
+  font-size: 2.5rem;
+}
+.s_info p, .s-5_info p, #team_item-1 p {
+  line-height: 1.5;
+}
+
+#team_item-1 {
+  padding: 1rem;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+  box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
+  border-radius: 34px;
 }/*# sourceMappingURL=style.css.map */
