@@ -216,3 +216,13 @@
 .s-5_info{
   @extend.s_info;
 }
+
+.links{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+  img{
+    cursor: pointer;
+  }
+}
