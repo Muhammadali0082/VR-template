@@ -71,9 +71,10 @@
 .grid-item_1 {
   width: 370px;
 
-
   padding: 1rem 0.5rem;
-  background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+  background: linear-gradient(268.12deg,
+      rgba(254, 254, 255, 0.032) -11.04%,
+      rgba(255, 255, 255, 0.018) 104.89%);
   box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
   border-radius: 34px;
   display: flex;
@@ -87,29 +88,26 @@
     @extend #info_p;
     line-height: 1.5;
   }
-
 }
 
 #item_h2 {
-  font-family: 'DM_Sans';
+  font-family: "DM_Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 31px;
-  color: #FFFFFF;
-
+  color: #ffffff;
 }
 
 .img-border_1 {
   width: 74px;
   height: 74px;
-  background: linear-gradient(180deg, #8A7FD9 0%, #402F8F 100%);
+  background: linear-gradient(180deg, #8a7fd9 0%, #402f8f 100%);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 
 .grid-item_2 {
   @extend .grid-item_1;
@@ -121,9 +119,8 @@
 
 .img-border_2 {
   @extend .img-border_1;
-  background: linear-gradient(180deg, #D97F95 0%, #923250 100%);
+  background: linear-gradient(180deg, #d97f95 0%, #923250 100%);
 }
-
 
 .grid-item_3 {
   @extend .grid-item_1;
@@ -135,10 +132,8 @@
 
 .img-border_3 {
   @extend .img-border_1;
-  background: linear-gradient(180deg, #84D8ED 0%, #4292BB 100%);
-
+  background: linear-gradient(180deg, #84d8ed 0%, #4292bb 100%);
 }
-
 
 .grid-item_4 {
   @extend .grid-item_1;
@@ -150,10 +145,8 @@
 
 .img-border_4 {
   @extend .img-border_1;
-  background: linear-gradient(180deg, #92EFC3 0%, #2F8F5B 100%);
-
+  background: linear-gradient(180deg, #92efc3 0%, #2f8f5b 100%);
 }
-
 
 .grid-item_5 {
   @extend .grid-item_1;
@@ -165,10 +158,8 @@
 
 .img-border_5 {
   @extend .img-border_1;
-  background: linear-gradient(180deg, #BC7FD9 0%, #923283 100%);
-
+  background: linear-gradient(180deg, #bc7fd9 0%, #923283 100%);
 }
-
 
 .grid-item_6 {
   @extend .grid-item_1;
@@ -180,49 +171,84 @@
 
 .img-border_6 {
   @extend .img-border_1;
-  background: linear-gradient(180deg, #8684ED 0%, #4247BB 100%);
-
+  background: linear-gradient(180deg, #8684ed 0%, #4247bb 100%);
 }
 
-
-.s_info{
-  
-  h1{
-    
-  @extend #h1-text;
-  line-height: 1;
-  font-size: 2.5rem;
+.s_info {
+  h1 {
+    @extend #h1-text;
+    line-height: 1;
+    font-size: 2.5rem;
   }
-  p{
+
+  p {
     @extend #info_p;
     line-height: 1.5;
   }
-
-
 }
 
-
-#team_item-1{
+#team_item-1 {
   padding: 1rem;
   width: 300px;
   height: 300px;
-  background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+  background: linear-gradient(268.12deg,
+      rgba(254, 254, 255, 0.032) -11.04%,
+      rgba(255, 255, 255, 0.018) 104.89%);
   box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
   border-radius: 34px;
   @extend.s_info;
-  
 }
 
-.s-5_info{
+.s-5_info {
   @extend.s_info;
 }
 
-.links{
+.links {
   display: flex;
   justify-content: center;
   gap: 1rem;
 
-  img{
+  img {
     cursor: pointer;
+  }
+}
+
+#section-6{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: linear-gradient(180deg,
+      rgba(254, 254, 255, 0.0145) 0%,
+      rgba(255, 255, 255, 0.02) 100%);
+  box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
+  border-radius: 34px;
+  @extend.s_info;
+}
+
+.form{
+  
+
+  input{
+    position: relative;
+    width: 60%;
+    height: 5rem;
+    padding: 1.5rem;
+    margin-right: 0.2rem;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #fff;
+    background: linear-gradient(180deg, rgba(254, 254, 255, 0.0348) 0%, rgba(255, 255, 255, 0.048) 100%);
+    box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.07);
+    border-radius: 70px;
+  }
+
+  .button{
+    border-radius: 70px;
+    padding: 1.5rem;
+
+    img{
+      margin-right: 0.5rem;
+    }
   }
 }
