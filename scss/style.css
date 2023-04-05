@@ -37,7 +37,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-#info_p, .s_info p, #section-6 p, .s-5_info p, #team_item-1 p, .grid-item_1 p, .grid-item_6 p, .grid-item_5 p, .grid-item_4 p, .grid-item_3 p, .grid-item_2 p, .s-2_info p {
+#info_p, #footer-2 ul, #footer-2 h6, .s_info p, #section-6 p, .s-5_info p, #team_item-1 p, .grid-item_1 p, .grid-item_6 p, .grid-item_5 p, .grid-item_4 p, .grid-item_3 p, .grid-item_2 p, .s-2_info p {
   font-size: 1.1rem;
   line-height: 30px;
   color: #fff;
@@ -150,7 +150,7 @@
 
 .form input {
   position: relative;
-  width: 60%;
+  width: 55%;
   height: 5rem;
   padding: 1.5rem;
   margin-right: 0.2rem;
@@ -164,8 +164,43 @@
 }
 .form .button {
   border-radius: 70px;
-  padding: 1.5rem;
+  padding: 1.6rem 2rem;
 }
 .form .button img {
   margin-right: 0.5rem;
+}
+
+.footer-col h5 {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.footer-col ul li {
+  list-style-type: none;
+  font-family: DM_Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #fff;
+}
+.footer-col ul li img {
+  margin-right: 0.5rem;
+}
+
+#links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+#footer-2 {
+  display: flex;
+  justify-content: space-between;
+}
+#footer-2 ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
